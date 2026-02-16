@@ -4,7 +4,6 @@ const taskSchema = new mongoose.Schema({
     title: {
       type: String,
       required: [true, 'title is required'],
-      unique: [true, 'title must be unique']
     },
     project: {
       type: mongoose.Schema.Types.ObjectId,

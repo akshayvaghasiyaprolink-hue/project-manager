@@ -4,7 +4,6 @@ const projectSchema = new mongoose.Schema({
     title: {
       type: String,
       required: [true, 'title is required'],
-      unique: [true, 'title must be unique']
     }
 }, {
   timestamps: true
