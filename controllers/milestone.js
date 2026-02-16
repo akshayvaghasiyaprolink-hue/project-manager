@@ -1,4 +1,4 @@
-const MileStone = require('../models/mileStone');
+const MileStone = require('../models/milestone');
 const tryGuard = require('../utils/tryGuard');`           `
 const paginate = require('../utils/paginate');
 
