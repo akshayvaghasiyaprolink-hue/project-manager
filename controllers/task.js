@@ -1,5 +1,5 @@
 const Task = require('../models/task');
-const tryGuard = require('../utils/tryGuard');`           `
+const tryGuard = require('../utils/tryGuard');
 const paginate = require('../utils/paginate');
 
 // Get all tasks with pagination, search, and filters
